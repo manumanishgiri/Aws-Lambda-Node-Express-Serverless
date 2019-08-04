@@ -1,0 +1,36 @@
+{
+  "name": "awslambdanode",
+  "version": "1.0.0",
+  "description": "Aws-Lambda-Node-Express-Serverless",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodeman server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manumanishgiri/Aws-Lambda-Node-Express-Serverless.git"
+  },
+  "keywords": [
+    "Aws",
+    "Lambda",
+    "NodeJs",
+    "Express",
+    "Serverless"
+  ],
+  "author": "Manish Giri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manumanishgiri/Aws-Lambda-Node-Express-Serverless/issues"
+  },
+  "homepage": "https://github.com/manumanishgiri/Aws-Lambda-Node-Express-Serverless#readme",
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-contrib-jshint": "^2.1.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "jshint-stylish": "^2.2.1",
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
