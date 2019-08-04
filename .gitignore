@@ -64,3 +64,4 @@ typings/
 .project
 .settings/
 .sublime-project
+package-lock.json
