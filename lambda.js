@@ -11,9 +11,5 @@ app.use(compression());
 app.use(cors());
 app.use(awsServerlessExpressMiddleware.eventContext());
 require('./routes')(app);
-// const server = awsServerlessExpress.createServer(app);
-const binaryMimeTypes = [
-    'application/json'
-  ];
-  const server = awsServerlessExpress.createServer(app);
+const server = awsServerlessExpress.createServer(app);
 exports.handler = (event, context) => awsServerlessExpress.proxy(server, event, context);
